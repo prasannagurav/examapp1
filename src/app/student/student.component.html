@@ -1,0 +1,21 @@
+
+<table border="2">
+    <thead>
+        <th>Student Id</th>
+        <th>Student name</th>
+        <th>Math Marks</th>
+        <th>Java Marks</th>
+        <th>Science Marks</th>
+        <th>Avg Marks</th>
+    </thead>
+    <tbody>
+        <tr *ngFor="let std of student">
+            <td>{{std.id}}</td>
+            <td>{{std.name}}</td>
+            <td>{{std.mathMarks}}</td>
+            <td>{{std.javaMarks}}</td>
+            <td>{{std.scienceMarks}}</td>
+            <td>{{std.avgMarks}}</td>
+        </tr>
+    </tbody>
+</table>
